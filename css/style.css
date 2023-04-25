@@ -14,6 +14,37 @@ Blue: #000000
     box-sizing: border-box;
 }
 
+
 :root{
-    
+    --title-color: #E53170;
+    --link-color: #62C0EA;
+}
+
+
+/* Body */
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.2rem;
+}
+
+
+/* COntainer */
+
+.container {
+    max-width: 1600px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Header */ 
+
+h1 {
+    color: var(--title-color);
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+p {
+    margin: 4.5rem 0;
 }
